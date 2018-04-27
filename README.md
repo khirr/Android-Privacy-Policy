@@ -1,5 +1,5 @@
 # Android-Privacy-Policy
-A simple Android library to show Privacy Policy, Terms of Service and General Data Protection Regulation (GDPR) for users
+A simple Android library to show Privacy Policy, Terms of Service and General Data Protection Regulation (GDPR).
 
 Api-level 16+
 
