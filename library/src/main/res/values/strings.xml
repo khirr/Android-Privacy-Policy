@@ -1,0 +1,6 @@
+<resources>
+    <string name="net_khirr_accept" translatable="false">Accept</string>
+    <string name="net_khirr_cancel" translatable="false">Cancel</string>
+    <string name="net_khirr_terms_of_service" translatable="false">Terms of Service</string>
+    <string name="net_khirr_terms_of_service_subtitle" translatable="false">If you click on {accept}, you acknowledge that it makes the content present and all the content of our {terms}Terms of Service{/terms} and implies that you have read our {privacy}Privacy Policy{privacy}.</string>
+</resources>

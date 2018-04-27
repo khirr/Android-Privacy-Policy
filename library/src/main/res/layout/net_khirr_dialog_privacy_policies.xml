@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#00000000">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:padding="16dp">
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottomContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/termsOfServiceSubtitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <!-- Buttons -->
+                <LinearLayout
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!-- Cancel -->
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/cancelButton"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/cancelTextView"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_centerInParent="true"
+                                android:textColor="#1b95e0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <!-- Accept -->
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/acceptButton"
+                            android:background="@drawable/net_khirr_policies_button_accept"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="18sp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_centerInParent="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/acceptTextView"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_above="@id/bottomContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/termsOfServiceTitle"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <!--<ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColorLink="@color/colorPrimaryText"
+                    android:textSize="15sp"
+                    android:text="@string/terms_of_service_body"
+                    android:textColor="@color/colorSecondaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/termsOfServiceTextView"/>
+            </ScrollView>-->
+            <android.support.v7.widget.RecyclerView
+                android:overScrollMode="never"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/policiesRecyclerView"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp">
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"/>
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/numberTextView"
+        android:id="@+id/bodyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
