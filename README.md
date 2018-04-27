@@ -3,6 +3,10 @@ A simple Android library to show Privacy Policy, Terms of Service and General Da
 
 Api-level 16+
 
+Preview:
+
+<img src="https://github.com/khirr/Android-Privacy-Policy/blob/master/art/main-view-screenshot.png" width="480">
+
 Usage:
 
 Add the repository to your gradle app
