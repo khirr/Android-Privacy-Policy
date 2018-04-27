@@ -18,7 +18,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.github.khirr:Android-Privacy-Policy:1.0.0'
+    implementation 'com.github.khirr:Android-Privacy-Policy:1.0.0'
 }
 ```
 
