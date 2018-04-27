@@ -27,8 +27,8 @@ Add this view to your code
 // Initialice your dialog, first param is your terms of service url, and second param is your privacy policy url
 
 PrivacyPolicyDialog dialog = new PrivacyPolicyDialog(this,
-                "https://localhost",
-                "https://localhost");
+                "https://localhost/terms",
+                "https://localhost/privacy");
 ```
 
 Add your policy lines, the most import for users, your full policy and terms of service are on your urls.
