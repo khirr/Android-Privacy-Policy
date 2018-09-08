@@ -58,6 +58,10 @@ dialog.setOnClickListener(new PrivacyPolicyDialog.OnClickListener() {
     }
 });
 ```
+Enable for Europe only
+```
+dialog.setEuropeOnly(true);
+```
 
 Full dialog customizing
 ```
