@@ -50,6 +50,8 @@ class PrivacyPolicyDialog(private val context: AppCompatActivity,
     var title = context.getString(R.string.net_khirr_terms_of_service)
     var termsOfServiceSubtitle = context.getString(R.string.net_khirr_terms_of_service_subtitle)
 
+    var europeOnly = false
+
     private var lines = ArrayList<String>()
 
     companion object {
@@ -130,6 +132,11 @@ class PrivacyPolicyDialog(private val context: AppCompatActivity,
 
     fun show() {
         if (policiesAccepted) {
+            onClickListener?.onAccept(false)
+            return
+        }
+
+        if (europeOnly && !EUHelper.isEu(context)) {
             onClickListener?.onAccept(false)
             return
         }

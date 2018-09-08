@@ -55,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
         //  {privacy}Privacy Policy{/privacy} is replaced by a link to your privacy policy
         dialog.setTermsOfServiceSubtitle("If you click on {accept}, you acknowledge that it makes the content present and all the content of our {terms}Terms of Service{/terms} and implies that you have read our {privacy}Privacy Policy{privacy}.");
 
+        //  Set Europe only
+        dialog.setEuropeOnly(true);
+
         dialog.show();
     }
 }
