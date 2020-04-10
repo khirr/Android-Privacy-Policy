@@ -8,8 +8,8 @@ import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.RippleDrawable
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.text.Html
 import android.text.Spanned
 import android.text.method.LinkMovementMethod
@@ -22,9 +22,6 @@ import android.graphics.drawable.shapes.RoundRectShape
 import android.graphics.drawable.Drawable
 import java.util.*
 import android.content.res.ColorStateList
-
-
-
 
 class PrivacyPolicyDialog(private val context: AppCompatActivity,
                           private val termsOfServiceUrl: String,
