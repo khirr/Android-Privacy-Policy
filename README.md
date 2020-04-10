@@ -7,12 +7,10 @@ Preview:
 
 <img src="https://github.com/khirr/Android-Privacy-Policy/blob/master/art/main-view-screenshot.png" width="480">
 
-Versions:
-You can use 1.0.1 for AppCompat project and 1.0.2 for AndroidX project.
-
 Usage:
 
 Add the repository to your gradle app
+You can use 1.0.1 for AppCompat project, use 1.0.2 or higher for AndroidX projects.
 ```
 allprojects {
     repositories {
