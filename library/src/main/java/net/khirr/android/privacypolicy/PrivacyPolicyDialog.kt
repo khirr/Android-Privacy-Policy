@@ -144,6 +144,10 @@ class PrivacyPolicyDialog(private val context: AppCompatActivity,
         dialog = builder.show()
     }
 
+    fun forceReset() {
+        policiesAccepted = false
+    }
+
     private fun toHtml(res: Int): Spanned {
         return toHtml(context.getString(res))
     }

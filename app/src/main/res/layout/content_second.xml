@@ -8,4 +8,11 @@
     tools:context=".SecondActivity"
     tools:showIn="@layout/activity_second">
 
+    <Button
+        android:id="@+id/forceResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Force Reset"
+        android:layout_centerInParent="true" />
+
 </RelativeLayout>
