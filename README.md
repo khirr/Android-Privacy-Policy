@@ -66,7 +66,7 @@ dialog.setEuropeOnly(true);
 
 Force reset if you need to update your policies and request accept it again (do not use it in your load-app lifecycle, if you do it, policies will need to be accepted everytime you launch app).
 ```
-dialog.forceReset;
+dialog.forceReset();
 ```
 
 Full dialog customizing
