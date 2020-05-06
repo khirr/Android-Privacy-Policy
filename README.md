@@ -10,7 +10,7 @@ Preview:
 Usage:
 
 Add the repository to your gradle app
-You can use 1.0.1 for AppCompat project, use 1.0.2 or higher for AndroidX projects.
+You can use 1.0.1 for AppCompat project, use 1.0.3 or higher for AndroidX projects.
 ```
 allprojects {
     repositories {
@@ -62,6 +62,11 @@ dialog.setOnClickListener(new PrivacyPolicyDialog.OnClickListener() {
 Enable for Europe only
 ```
 dialog.setEuropeOnly(true);
+```
+
+Force reset if you need to update your policies and request accept it again (do not use it in your load-app lifecycle, if you do it, policies will need to be accepted everytime you launch app).
+```
+dialog.forceReset;
 ```
 
 Full dialog customizing
