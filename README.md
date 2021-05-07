@@ -10,7 +10,8 @@ Preview:
 Usage:
 
 Add the repository to your gradle app
-You can use 1.0.1 for AppCompat project, use 1.0.3 or higher for AndroidX projects.
+
+**You can use 1.0.1 for AppCompat project, use 1.0.3 or higher for AndroidX projects.**
 ```
 allprojects {
     repositories {
